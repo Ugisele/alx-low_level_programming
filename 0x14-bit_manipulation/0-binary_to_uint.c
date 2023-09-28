@@ -12,7 +12,11 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int num = 0, mult = 1;
 	int len;
 
+<<<<<<< HEAD
 	if (!b)
+=======
+	if (b == '\0')
+>>>>>>> 4f8e1131471d7bf4ed64048415f3975ea660d789
 		return (0);
 
 	for (len = 0; b[len];)
